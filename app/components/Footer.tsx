@@ -6,17 +6,17 @@ const Footer = () => {
       <div>
         <img src='/fable-logo-footer.svg' alt='logo' />
       </div>
-      <div>
+      <div className='text-white'>
         <p>Ash Govind</p>
         <p>ash@thefable.tv</p>
         <p>0424 545 146</p>
       </div>
-      <div>
+      <div className='text-white'>
         <p>Instagram</p>
         <p>LinkedIn</p>
         <p>Vimeo</p>
       </div>
-      <div className='flex flex-col space-y-7'>
+      <div className='flex flex-col space-y-7 text-white'>
         <div className='w-[455px] h-auto'>
           <p>
             We acknowledge the Wurundjeri people of the Kulin nation as the
